@@ -1,0 +1,373 @@
+    
+*{
+margin:0px;
+padding:0px;
+
+}
+
+h1{  text-align: center;
+    
+             border-width: 5px;
+             border-color: white; 
+             font-family: 'Anton',sans-serif;}
+    
+#barra{display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor{
+    width: 95%;
+
+    margin:auto;
+    
+    
+    
+}
+
+
+div iframe{       border-color: aquamarine;
+                  float:center;
+                  display:block;
+    margin:auto;    }
+
+
+
+header nav{
+    background:red;
+    margin-bottom:10px;
+    
+    transition:all ease .5s;
+}
+header #mapaa{
+    
+    margin-top: 60px;
+    
+    
+}
+
+header nav ul{
+    
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li{
+    
+    float:left;
+}
+
+header nav ul a{
+    
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header nav ul a:hover {
+ background: #2980b9;   
+    
+}
+         
+.menu-fixed{
+  position: fixed;
+    z-index: 1000;
+    top: 0;
+    left:0;
+    width:100%;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5)
+    } 
+
+
+.menu-fixed ul li a (
+padding:8px 20px;
+
+)
+         
+         
+@font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+
+    
+#imagen2{
+    text-align: center;
+    
+}
+
+
+        
+#primero {     font-family:"LetraR";
+              padding: 25px 10px 50px 15px;
+              background-color:bisque;
+              font-size:20px;
+              text-align: center;
+              border-radius: 10px;
+    
+        }
+#medio{      font-family:"LetraR";
+             padding: 25px 10px 50px 15px;
+             background-color: bisque;
+             font-size:20px;
+             text-align: center;
+             border-radius: 15px;
+        }
+#fin{        font-family:"LetraR";
+             padding: 25px 10px 50px 15px;
+             background-color: bisque;
+             font-size:20px;
+             text-align: center;
+             border-radius: 20px;
+              
+        }
+
+     
+      
+         
+@font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+
+
+
+         
+         
+         
+     @font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+body {
+  margin:30px;
+  background-color:linear-gradient(gray black);
+  
+            }
+ 
+h1{          border-width: 5px;
+             border-color: white;
+             margin-left:41.5%; 
+             font-family: 'Anton', sans-serif;
+          }
+
+            
+
+            
+
+img{
+                width: 100%;
+                display: block;
+                transition:  all .2s;
+            
+                }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.galeria {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria__item {box-shadow: 10px 60px 30px rgba(0,0,0,0.9);
+    height:10%;
+  width: 80%;
+  cursor: pointer;
+
+}
+.galeria__item {:hover(opacity:0.9;){
+@media (min-width:480px)}
+     }
+.galeria__item {
+    width: 48%;
+    margin: 5px;}
+
+@media (min-width:768px) {
+  .galeria__item {
+    width: 30%;
+    margin: 15px;}
+}
+@media (min-width:1024px) {
+  .galeria__item {
+    width: 20%;
+    margin: 15px;
+  }
+}
+
+ .modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__img {
+  width: 100%;
+  max-width: 900px
+            }
+
+
+.modal__boton {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: monospace;
+  line-height: 50px;
+  text-align: center;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+        
+#imagen2   {
+            width: 300px;
+            height:300px;
+            margin :2%;
+            margin-left: 800px;
+            border-radius: 10px;
+    
+     }
+            
+
+div iframe{       border-color: aquamarine;
+                  float:center;
+                  display:block;
+                  margin:auto;       
+        }
+div video{
+                  float:center;
+                  display:block;
+                  margin:auto; 
+        }
+h2{
+                 background-image:url(mi%20trabajo/Malta.jpg);
+     
+                 width: 150px;
+                 margin: 0px auto;
+                 padding: 10px;
+                 font-size: 30px;
+                 color: black;
+                 margin-right: 45%;
+        }
+#cabecera {      background: linear-gradient(to right, white,beige);
+                 border:solid 1px white; 
+                 padding: 5px 10px;
+                 display:inline;
+                 font-size:22px;
+                 margin:20px}
+a{
+        font-size: 100%}
+        
+        a:hover{background-color:aqua;
+        background-size:45%;
+        background-color: aquamarine; }
+        
+        
+#localizacion   {background: linear-gradient(to right, white,beige);
+                 width: 190px;
+                 margin: 0px auto;
+                 padding: 8px;
+                 font-size: 30px;
+                 color: black;
+                 margin-right: 44%;
+                 text-align: center;
+                 font-family:LetraR; 
+     }
+        
+        
+#mapaa {
+             margin-left: 34%;  
+            
+        }
+iframe{      margin: 3%;
+             
+        } 
+
+        
+
+#inicio {font-size: 10px;
+         text-align: center;
+         font-family:LetraR; 
+         background-image: url(img/murder.jpg);
+                
+            }
+            
+#inicio0 {font-size: 40px;
+         text-align: center;
+         font-family:LetraR; 
+     }
+
+
+
+h3{
+             font-size: 160%;
+             color:white;
+    
+        }
+h4{
+            
+            font-size: 35px;
+            color:white;
+        }
+fieldset{
+            background-color: azure;
+        }
+          
+                
+                
+figure{
+                background: transparent;
+                margin: 100px;
+                position: relative;
+                width: 500px;
+                margin: 10px 20px;
+                padding: 5px;
+                text-align: center;
+        }
+
+
+.button {
+	background-color: red; 
+	color: #fff;
+    display: inline-block;
+	cursor: pointer;
+	font-size: 20px;
+    margin: 10px;
+	padding: 10px 0px;
+	text-align: center;
+	width: auto;
+    text-decoration:none;
+       
+   
+     }
+
+  
+
+  
+     
+     .button:hover{
+         
+         box-shadow: 0px 0px 7px;
+         padding-top: 7px;
+     }
+     
+     
+      

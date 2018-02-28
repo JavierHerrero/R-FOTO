@@ -1,0 +1,336 @@
+*{
+margin:0px;
+padding:0px;
+
+}
+background: url(img/fondo.jpg) no-repeat center center fixed;
+background-size: cover;
+
+body, ul, li {
+margin:0;
+padding:0;
+}
+ul {
+list-style:none;
+display:inline-block;
+}
+ul li {
+float:left;
+}
+ul#dropdownmenu {
+margin:none;
+list-style:none;
+height:40px;
+width:100%;
+background:#FF2E63;
+}
+ul#dropdownmenu li {
+height:40px;
+}
+ul#dropdownmenu li a {
+display:block;
+padding:8px;
+height:24px;
+color:#252A34;
+font-family:Arial, Verdana, Geneva, sans-serif;
+font-size:18px;
+text-decoration:none;
+}
+ul#dropdownmenu li a:hover {
+background:#EAEAEA;
+}
+
+ul#dropdownmenu li ul {
+display:none;
+}
+ul#dropdownmenu li:hover ul {
+display:block;
+background:#08D9D6;
+position:absolute;
+}
+
+ul#dropdownmenu li:hover ul li {
+float:none;
+position:relative; /* Gracias por el consejo, Álex */
+background:#08D9D6;
+}
+
+
+ul#dropdownmenu li ul li ul, ul#dropdownmenu li:hover ul li ul {
+display:none;
+}
+ul#dropdownmenu li:hover ul li:hover ul {
+display:block;
+top:0;
+left:100%;
+}
+
+
+
+
+
+h1{  text-align: center;
+    
+             border-width: 5px;
+             border-color: white; 
+             font-family: 'Anton',sans-serif;}
+    
+#barra{display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor{
+    width: 95%;
+
+    margin:auto;
+    
+    
+    
+}
+
+
+div iframe{       border-color: aquamarine;
+                  float:center;
+                  display:block;
+    margin:auto;    }
+
+
+
+header nav{
+    background:red;
+    margin-bottom:10px;
+    
+    transition:all ease .5s;
+}
+header #mapaa{
+    
+    margin-top: 60px;
+    
+    
+}
+
+header nav ul{
+    
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li{
+    
+    float:left;
+}
+
+header nav ul a{
+    
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header nav ul a:hover {
+ background: #2980b9;   
+    
+}
+#inicio01{font-size: 40px;
+         text-align: center;
+         font-family:LetraR; 
+     }
+    
+    
+    
+      
+.menu-fixed{
+  position: fixed;
+    z-index: 1000;
+    top: 0;
+    left:0;
+    width:100%;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5)
+    
+    
+} 
+
+
+.menu-fixed ul li a (
+padding:8px 20px;
+
+)
+         
+         
+@font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+
+
+#localizacion {
+    
+    font-family: 'Anton',sans-serif;
+    text-align: center;
+}
+
+    
+#imagen2{
+            width: 300px;
+            height:300px;
+            margin :2%;
+            margin-left: 800px;
+            border-radius: 10px;
+            text-align: center;
+    
+    
+    
+}
+
+#mapaa {
+             margin-left: 34%;  
+            
+        }
+iframe{      margin: 3%;
+             
+        } 
+
+        
+#primero {    font-family:"LetraR";
+              padding: 25px 10px 50px 15px;
+              background-color:bisque;
+              font-size:20px;
+              text-align: center;
+              border-radius: 10px;
+    
+        }
+#medio{      font-family:"LetraR";
+             padding: 25px 10px 50px 15px;
+             background-color: bisque;
+             font-size:20px;
+             text-align: center;
+             border-radius: 15px;
+        }
+#fin{        font-family:"LetraR";
+             padding: 25px 10px 50px 15px;
+             background-color: bisque;
+             font-size:20px;
+             text-align: center;
+             border-radius: 20px;
+              
+        }
+
+     
+      img{
+                width: 100%;
+                display: block;
+                transition:  all .2s;
+            
+                }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.galeria {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria__item {box-shadow: 10px 60px 30px rgba(0,0,0,0.9);
+    height:10%;
+  width: 80%;
+  cursor: pointer;
+
+}
+.galeria__item {:hover(opacity:0.9;){
+@media (min-width:480px)}
+     }
+.galeria__item {
+    width: 48%;
+    margin: 5px;}
+
+@media (min-width:768px) {
+  .galeria__item {
+    width: 30%;
+    margin: 15px;}
+}
+@media (min-width:1024px) {
+  .galeria__item {
+    width: 20%;
+    margin: 15px;
+  }
+}
+
+ .modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__img {
+  width: 100%;
+  max-width: 900px;
+  
+            }
+
+
+.modal__boton {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: monospace;
+  line-height: 50px;
+  text-align: center;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+@font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+
+
+
+         
+         
+         
+     @font-face{
+                font-family:LetraR;
+                src :url("IndieFlower.ttf")
+            } 
+h2{
+                 background-image:url(mi%20trabajo/Malta.jpg);
+     
+                 width: 150px;
+                 margin: 0px auto;
+                 padding: 10px;
+                 font-size: 30px;
+                 color: black;
+                 margin-right: 45%;
+        }
+#inicio {font-size: 10px;
+         text-align: center;
+         font-family:LetraR; 
+         background-image: url(img/murder.jpg);
+                
+            }
+            
+#inicio0 {font-size: 40px;
+         text-align: center;
+         font-family:LetraR; 
+     }
